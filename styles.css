@@ -25,7 +25,7 @@ body {
 
 
 .card {
-  border-radius: 5px;
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -116,12 +116,26 @@ img {
   color: var(--White);
 }
 
-@media screen and (min-width: 775px) {
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
   section {
-    width: 90%;
+    width: 100%;
     display: grid;
     grid-template: 1fr 1fr/ 1fr 1fr 1fr 1fr;
     grid-gap: 20px;
+    padding: 0 30px;
+    max-width: 1200px;
+    justify-content: center;
+    height: 80vh;
   }
 
   article:nth-child(1) {
@@ -142,5 +156,17 @@ img {
 
   .card{
     margin-bottom: 0;
+    justify-content: space-evenly;
   }
+
+  .card_title{
+    font-size: 1.2rem;
+  }
+
+  .card_testimonial{
+    font-size:1rem;
+  }
+
 }
+
+
