@@ -98,5 +98,9 @@ img {
   border: 2px solid #a876ef;
 }
 
+.grayish{
+  background-color: var(--Very-dark-grayish-blue);
 
+  color: var(--White);
+}
 
