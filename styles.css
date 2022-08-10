@@ -106,6 +106,12 @@ img {
 
 .white{
   background-color: var(--White);
-  
+
   color: var(--Very-dark-blackish-blue);
+}
+
+.blackish{
+  background-color: var(--Very-dark-blackish-blue);
+
+  color: var(--White);
 }
